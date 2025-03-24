@@ -90,7 +90,7 @@ const Hero = () => {
         scale={1}
         threshold={0.2}
       >
-        <div className="relative md:max-w-[800px] max-w-[300px] mx-auto mt-[7rem] overflow-hidden ">
+        <div className="relative md:max-w-[800px] max-w-[300px] mx-auto mt-[5rem] overflow-hidden ">
           {/* Left Fade */}
           <div className="absolute left-0 top-0 h-full md:w-40 w-10 bg-[linear-gradient(to_right,rgba(10,10,11,0.7),transparent)] z-10 pointer-events-none" />
           {/* Right Fade */}
