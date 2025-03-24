@@ -43,7 +43,7 @@ const Contact = () => {
         reverse={false}
         config={{ tension: 80, friction: 20 }}
         initialOpacity={0}
-        delay={400}
+        delay={650}
         animateOpacity
         scale={1}
         threshold={0.2}
@@ -70,7 +70,7 @@ const Contact = () => {
         reverse={false}
         config={{ tension: 80, friction: 20 }}
         initialOpacity={0}
-        delay={800}
+        delay={850}
         animateOpacity
         scale={1}
         threshold={0.2}
@@ -88,7 +88,7 @@ const Contact = () => {
         reverse={false}
         config={{ tension: 80, friction: 20 }}
         initialOpacity={0}
-        delay={1200}
+        delay={1050}
         animateOpacity
         scale={1}
         threshold={0.2}
