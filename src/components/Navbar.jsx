@@ -24,7 +24,7 @@ const Navbar = () => {
                   setIsActive(item.name);
                   console.log(isActive);
                 }}
-                className={`cursor-pointer md:text-base text-sm  ${
+                className={`cursor-pointer text-sm  ${
                   isActive === item.name ? "text-[#3CD98E]" : "text-white"
                 }`}
               >
