@@ -56,10 +56,26 @@ const Hero = () => {
         delay={800}
         threshold={0.2}
       >
-        <p className="md:max-w-[65%] w-full text-white opacity-75 mx-auto">
+        <p className="md:max-w-[65%] max-w-[85%] text-white opacity-75 mx-auto">
           Crafting responsive websites with seamless experience, elegant design,
           and intuitive interactions.
         </p>
+      </AnimatedContent>
+
+       <AnimatedContent
+        distance={150}
+        direction="horizontal"
+        reverse={false}
+        config={{ tension: 80, friction: 20 }}
+        initialOpacity={0}
+        animateOpacity
+        scale={1}
+        delay={1000}
+        threshold={0.2}
+      >
+        <button className="rounded-xl px-[2.5rem] py-2 bg-[#3CD98E] text-black mt-[1.5rem] cursor-pointer">
+          Hire Me!
+        </button>
       </AnimatedContent>
 
       {/* Marquee Scroll */}
