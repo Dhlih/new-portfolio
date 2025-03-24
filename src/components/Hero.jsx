@@ -30,7 +30,7 @@ const Hero = () => {
         scale={1}
         threshold={0.2}
       >
-        <p className="text-[#3CD98E] mt-[9rem]">Front End Developer</p>
+        <p className="text-[#3CD98E] mt-[10rem]">Front End Developer</p>
       </AnimatedContent>
       <AnimatedContent
         distance={150}
@@ -56,10 +56,26 @@ const Hero = () => {
         delay={800}
         threshold={0.2}
       >
-        <p className="md:max-w-[65%] w-full text-white opacity-75 mx-auto">
+        <p className="md:max-w-[65%] max-w-[85%] text-white opacity-75 mx-auto">
           Crafting responsive websites with seamless experience, elegant design,
           and intuitive interactions.
         </p>
+      </AnimatedContent>
+
+      <AnimatedContent
+        distance={150}
+        direction="horizontal"
+        reverse={false}
+        config={{ tension: 80, friction: 20 }}
+        initialOpacity={0}
+        animateOpacity
+        scale={1}
+        delay={1000}
+        threshold={0.2}
+      >
+        <button className="rounded-xl px-[2.5rem] py-2 bg-[#3CD98E] text-black mt-[1.5rem] cursor-pointer">
+          Hire Me!
+        </button>
       </AnimatedContent>
 
       {/* Marquee Scroll */}
@@ -74,7 +90,7 @@ const Hero = () => {
         scale={1}
         threshold={0.2}
       >
-        <div className="relative md:max-w-[800px] max-w-[300px] mx-auto mt-[7rem] overflow-hidden ">
+        <div className="relative md:max-w-[800px] max-w-[300px] mx-auto mt-[6rem] overflow-hidden ">
           {/* Left Fade */}
           <div className="absolute left-0 top-0 h-full md:w-40 w-10 bg-[linear-gradient(to_right,rgba(10,10,11,0.7),transparent)] z-10 pointer-events-none" />
           {/* Right Fade */}

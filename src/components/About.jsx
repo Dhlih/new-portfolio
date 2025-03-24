@@ -3,7 +3,7 @@ import AnimatedContent from "./AnimatedContent";
 const About = () => {
   return (
     <div className="w-full py-2" id="about">
-      <div className="text-center max-w-[1000px] mx-auto space-y-6 px-[2rem] md:mt-[5rem] mt-0 ">
+      <div className="text-center max-w-[1000px] mx-auto space-y-6 px-[2rem] md:mt-[6rem] mt-0 ">
         <AnimatedContent
           distance={150}
           direction="horizontal"
