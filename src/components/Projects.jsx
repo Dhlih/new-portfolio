@@ -65,12 +65,19 @@ const Projects = () => {
                 <p className="opacity-80">On Development</p>
               </div>
               <div className="space-x-4">
-                <button className="bg-[#1B1B1B] outline-1 outline-[#424242] p-3 rounded-md">
-                  <IoCodeSlash className="text-2xl" />
-                </button>
-                <button className="bg-[#1B1B1B]  outline-1 outline-[#424242] p-3 rounded-md">
-                  <IoOpenOutline className="text-2xl" />
-                </button>
+                <a
+                  href="https://github.com/Dhlih/new-portfolio"
+                  target="_blank"
+                >
+                  <button className="bg-[#1B1B1B]  outline-1 outline-[#424242] p-3 rounded-md cursor-pointer">
+                    <IoCodeSlash className="text-2xl" />
+                  </button>
+                </a>
+                <a href="https://ifadyusuf.vercel.app" target="_blank">
+                  <button className="bg-[#1B1B1B]  outline-1 outline-[#424242] p-3 rounded-md cursor-pointer">
+                    <IoOpenOutline className="text-2xl" />
+                  </button>
+                </a>
               </div>
             </div>
           </AnimatedContent>
@@ -103,12 +110,16 @@ const Projects = () => {
                 <p className="opacity-80">On Development</p>
               </div>
               <div className="space-x-4">
-                <button className="bg-[#1B1B1B] outline-1 outline-[#424242] p-3 rounded-md">
-                  <IoCodeSlash className="text-2xl" />
-                </button>
-                <button className="bg-[#1B1B1B]  outline-1 outline-[#424242] p-3 rounded-md">
-                  <IoOpenOutline className="text-2xl" />
-                </button>
+                <a href="https://github.com/Dhlih/Ficpactcup2" target="_blank">
+                  <button className="bg-[#1B1B1B]  outline-1 outline-[#424242] p-3 rounded-md cursor-pointer">
+                    <IoCodeSlash className="text-2xl" />
+                  </button>
+                </a>
+                <a href="https://e-tiketin.vercel.app" target="_blank">
+                  <button className="bg-[#1B1B1B]  outline-1 outline-[#424242] p-3 rounded-md cursor-pointer">
+                    <IoOpenOutline className="text-2xl" />
+                  </button>
+                </a>
               </div>
             </div>
           </AnimatedContent>
