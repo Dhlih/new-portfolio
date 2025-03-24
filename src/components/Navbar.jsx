@@ -11,8 +11,8 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="fixed top-0 right-0 left-0 z-10 px-[2rem]">
-      <div className="md:max-w-[380px] w-full mx-auto rounded-full bg-[#1B1B1B]/85 backdrop-blur py-3 mt-[2rem] outline-1 outline-[#424242] ">
+    <div className="fixed top-0 right-0 left-0 z-50 px-[2rem]">
+      <div className="max-w-[380px]  mx-auto rounded-full bg-[#1B1B1B] py-3 mt-[2rem] outline-1 outline-[#424242] ">
         <ul className="space-x-7 flex items-center justify-center">
           {navItems.map((item) => (
             <li key={item.path}>
