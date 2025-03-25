@@ -12,7 +12,7 @@ const Footer = () => {
         {/* social media */}
         <div className="flex space-x-6 opacity-75">
           <a
-            href="www.linkedin.com/in/yusuf-fadhlih-firmansyah"
+            href="https://www.linkedin.com/in/yusuf-fadhlih-firmansyah"
             target="_blank"
           >
             <FaLinkedin className="text-2xl" />
