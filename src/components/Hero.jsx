@@ -75,7 +75,7 @@ const Hero = () => {
         delay={1000}
         threshold={0.2}
       >
-        <button className="rounded-xl px-[2.5rem] py-2 bg-[#3CD98E] text-black mt-[1.5rem] cursor-pointer text-sm font-medium">
+        <button className="rounded-xl px-[2.5rem] py-2 bg-[#3CD98E] text-black mt-[1.5rem] cursor-pointer text-sm ">
           Hire Me!
         </button>
       </AnimatedContent>
