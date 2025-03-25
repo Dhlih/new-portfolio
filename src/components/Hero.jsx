@@ -30,7 +30,7 @@ const Hero = () => {
         scale={1}
         threshold={0.2}
       >
-        <p className="text-[#3CD98E] md:mt-[10rem] mt-[7rem]">
+        <p className="text-[#3CD98E] md:mt-[9rem] mt-[7rem]">
           Front End Developer
         </p>
       </AnimatedContent>
@@ -75,7 +75,7 @@ const Hero = () => {
         delay={1000}
         threshold={0.2}
       >
-        <button className="rounded-xl px-[2.5rem] py-2 bg-[#3CD98E] text-black mt-[1.5rem] cursor-pointer">
+        <button className="rounded-xl px-[2.5rem] py-2 bg-[#3CD98E] text-black mt-[1.5rem] cursor-pointer text-sm font-medium">
           Hire Me!
         </button>
       </AnimatedContent>
