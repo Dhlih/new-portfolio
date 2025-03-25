@@ -5,7 +5,7 @@ import AnimatedContent from "./AnimatedContent";
 const Projects = () => {
   return (
     <div
-      className="text-center max-w-[900px] mx-auto space-y-3 mt-[8rem] px-[2rem] "
+      className="text-center max-w-[900px] mx-auto space-y-3 md:mt-[8rem] mt-[6rem] px-[2rem] "
       id="projects"
     >
       <AnimatedContent

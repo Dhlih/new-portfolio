@@ -3,7 +3,7 @@ import AnimatedContent from "./AnimatedContent";
 const Contact = () => {
   return (
     <div
-      className="max-w-[800px] mx-auto mt-[5rem] text-center px-[2rem]"
+      className="max-w-[800px] mx-auto md:mt-[9rem] mt-[7rem] text-center px-[2rem]"
       id="contact"
     >
       <AnimatedContent
