@@ -30,7 +30,7 @@ const Hero = () => {
         scale={1}
         threshold={0.2}
       >
-        <p className="text-[#3CD98E] md:mt-[9rem] mt-[7rem]">
+        <p className="text-[#3CD98E] md:mt-[9rem] mt-[4rem]">
           Front End Developer
         </p>
       </AnimatedContent>
