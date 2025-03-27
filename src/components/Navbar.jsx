@@ -15,7 +15,7 @@ const Navbar = () => {
       className="fixed top-0 left-0 z-50 px-[2rem]"
       style={{ width: "100vw" }}
     >
-      <div className="max-w-[380px] mx-auto  rounded-full bg-[#1B1B1B] py-3 md:mt-[1.5rem] mt-[2rem] outline-1 outline-[#424242] ">
+      <div className="max-w-[380px] mx-auto  rounded-full bg-[#1B1B1B]/80 backdrop-blur py-3 md:mt-[1.5rem] mt-[2rem] outline-1 outline-[#424242] ">
         <ul className="md:space-x-7 space-x-5 flex items-center justify-center">
           {navItems.map((item) => (
             <li key={item.path}>
